@@ -1,0 +1,12 @@
+puts 'Welcome to the number guessing game.  I will pick a number between 1-100.  It will be your job to guess the number.  If you are incorrect, I will tell you if your guess is higher or lower than my number, I will let you know.'
+puts "Time to guess!"
+mine = (rand(1..100))
+puts mine
+grabber = gets.chomp! 
+if mine == grabber
+puts 'That\'s it!'
+else 
+print 'debug'
+end
+
+
